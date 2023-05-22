@@ -6,6 +6,7 @@
   "repository": "https://github.com/Mjavala/xnft-push-notifications.git",
   "author": "k <mja>",
   "license": "MIT",
+  "type": "commonjs",
   "scripts": {
     "build": "tsc",
     "dev": "ts-node src/main.ts",
