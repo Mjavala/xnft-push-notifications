@@ -1,0 +1,31 @@
+{
+  "name": "xnft-push-notifications",
+  "version": "1.0.0",
+  "description": "generic push notifications for xnfts",
+  "main": "index.js",
+  "repository": "https://github.com/Mjavala/xnft-push-notifications.git",
+  "author": "k <mja>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/main.ts",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "devDependencies": {
+    "@solana/web3.js": "^1.76.0",
+    "@tsconfig/node16": "^1.0.4",
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.2.3",
+    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/parser": "^5.59.6",
+    "eslint": "^8.41.0",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "path": "^0.12.7"
+  }
+}
