@@ -26,6 +26,7 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
+    "@solana/spl-token": "^0.3.7",
     "dotenv": "^16.0.3",
     "path": "^0.12.7"
   }
